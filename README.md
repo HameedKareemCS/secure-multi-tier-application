@@ -13,25 +13,14 @@ Modern web applications are often targets for unauthorized access and data breac
 ##### Learning Objectives
 The primary objective of this project is to gain hands-on experience with foundational AWS security services. Key technical outcomes include:
 
-**Network Segmentation**: Mastering the use of VPCs, public subnets, and private subnets to isolate application components.
+- **Network Segmentation**: Mastering the use of VPCs, public subnets, and private subnets to isolate application components.
 
  - **Identity and Access Management (IAM)**: Applying the principle of "Least Privilege" to ensure that services, instances, and users only
    have access to the resources they strictly need.
    
-   **Data Protection**: Implementing KMS-managed encryption for data at rest, specifically for RDS (databases) and S3 (storage).
+  - **Data Protection**: Implementing KMS-managed encryption for data at rest, specifically for RDS (databases) and S3 (storage).
    
-   **Threat Mitigation**: Deploying Web Application Firewalls (WAF) to filter malicious traffic and utilizing AWS native tools (CloudTrail,
+   - **Threat Mitigation**: Deploying Web Application Firewalls (WAF) to filter malicious traffic and utilizing AWS native tools (CloudTrail,
    VPC Flow Logs) for continuous infrastructure auditing and
    observability.
 
-
-## Architecture Design
-- I will be updating this README as I work towards achieving this.
-
-## Project Log
-- **Phase 1: Foundation** - [Date]: Initial setup of VPC and security groups.
-- **Phase 2: Compute** - [Date]: Launching EC2 instances.
-- **Phase 3: Data** - [Date]: Configuring RDS with encryption.
-
-## Key Learnings
-- [List specific security configurations you implemented.]
